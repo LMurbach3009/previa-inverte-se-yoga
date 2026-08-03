@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverte-se Yoga</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body { font-family: 'Outfit', sans-serif; background-color: #0F172A; color: #F8FAFC; }
+        .bottom-bar { transform: translateY(100%); transition: transform 0.4s ease-out; }
+        .bottom-bar.visible { transform: translateY(0); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#0F172A]/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
+            <div class="text-2xl font-extrabold tracking-tighter text-teal-400">
+                INVERTE-SE <span class="font-light text-slate-300">YOGA</span>
+            </div>
+            <a href="https://wa.me/5517992769992" class="text-sm font-semibold hover:text-teal-400 transition-colors uppercase tracking-widest">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 px-4 md:px-6 max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center min-h-[75dvh]">
+        <div class="text-center md:text-left order-2 md:order-1">
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+                Desafie a <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-300">gravidade.</span>
+            </h1>
+            <p class="text-slate-400 text-base md:text-lg mb-10 max-w-md mx-auto md:mx-0 font-light leading-relaxed">
+                Um estúdio dinâmico e moderno no Centro de São Carlos. Domine as posturas invertidas, ganhe força e consciência corporal.
+            </p>
+            <div class="w-full sm:w-auto">
+                <a href="https://wa.me/5517992769992" class="inline-block w-full sm:w-auto bg-teal-500 text-slate-900 px-8 py-4 rounded-xl font-bold tracking-widest uppercase text-xs hover:bg-teal-400 transition-colors shadow-[0_0_20px_rgba(45,212,191,0.3)] text-center">
+                    Marcar Aula Experimental
+                </a>
+            </div>
+        </div>
+        <div class="order-1 md:order-2 w-full aspect-square md:aspect-auto md:h-[500px] relative">
+            <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Yoga Invertida" class="w-full h-full object-cover rounded-3xl opacity-80 filter contrast-125">
+            <div class="absolute inset-0 border-2 border-teal-500/30 rounded-3xl translate-x-4 translate-y-4 -z-10"></div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-20 bg-slate-900 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">Metodologia</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-teal-400 transition-colors">
+                    <i class="ph ph-barbell text-4xl text-teal-400 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Força & Core</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">Aulas intensas voltadas para a construção de uma base sólida, fundamental para a prática avançada.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-teal-400 transition-colors">
+                    <i class="ph ph-arrows-out-cardinal text-4xl text-teal-400 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Flexibilidade Ativa</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">Trabalho de mobilidade profunda para alcançar amplitudes articulares com segurança.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:border-teal-400 transition-colors">
+                    <i class="ph ph-hand-pointing text-4xl text-teal-400 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Inversões</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">Técnicas detalhadas para Sirsasana, Pincha Mayurasana e Handstands, do iniciante ao avançado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="py-20 max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">O Estúdio</h2>
+            <p class="text-slate-400 font-light mb-10 leading-relaxed">Ambiente climatizado, equipamentos premium e turmas reduzidas para garantir atenção personalizada em cada movimento.</p>
+            
+            <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center text-teal-400">
+                        <i class="ph-fill ph-map-pin text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-slate-200">Localização</p>
+                        <p class="text-sm text-slate-400">R. Jacinto Favoreto, 1098<br>Centro, São Carlos - SP</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center text-teal-400">
+                        <i class="ph-fill ph-whatsapp-logo text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-slate-200">WhatsApp</p>
+                        <p class="text-sm text-slate-400">(17) 99276-9992</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-64 md:min-h-[400px] w-full rounded-3xl overflow-hidden border border-slate-700">
+            <iframe src="https://maps.google.com/maps?q=R.%20Jacinto%20Favoreto,%201098%20-%20S%C3%A3o%20Carlos&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="opacity-80 grayscale invert"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-600 uppercase tracking-widest font-semibold px-4">
+        Prévia conceitual produzida por Antigravity.
+    </footer>
+
+    <!-- Fixed Bottom Bar -->
+    <div id="contactBar" class="bottom-bar fixed bottom-0 left-0 w-full pt-10 pb-6 px-4 md:px-6 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/90 to-transparent z-40 flex justify-center pointer-events-none">
+        <div class="pointer-events-auto bg-slate-800 text-teal-400 border border-teal-500/30 px-6 md:px-10 py-3 md:py-4 rounded-full font-semibold text-xs md:text-sm flex flex-col sm:flex-row items-center gap-2 md:gap-4 shadow-[0_0_30px_rgba(45,212,191,0.1)] text-center">
+            Mude sua perspectiva hoje: <a href="https://wa.me/5517992769992" class="text-white hover:text-teal-300 transition-colors">(17) 99276-9992</a>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const bar = document.getElementById('contactBar');
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 150) {
+                bar.classList.add('visible');
+            } else {
+                bar.classList.remove('visible');
+            }
+        });
+    </script>
+</body>
+</html>
